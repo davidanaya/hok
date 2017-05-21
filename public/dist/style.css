@@ -1,0 +1,50 @@
+html {
+  font-size: 10px; }
+
+body {
+  background: #262161;
+  background: #efefef; }
+  body:before {
+    content: '';
+    display: block;
+    background: linear-gradient(90deg, #48ded4 0%, #a026bf 20%, #e82c75 60%, #FFC40E 85%, #48ded4 95%);
+    height: 10px;
+    width: 100%; }
+
+.inner {
+  max-width: 900px;
+  margin: 0 auto; }
+  @media all and (max-width: 900px) {
+    .inner {
+      padding: 2rem; } }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.5rem;
+  color: #303030; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -1px; }
+
+a {
+  text-decoration: none;
+  color: #303030; }
+
+p a {
+  border-bottom: 2px solid #FFC40E; }
+
+p {
+  line-height: 2;
+  font-size: 1.6rem; }
+
+pre.error {
+  padding: 5rem;
+  background: white;
+  line-height: 3;
+  white-space: pre-line; }
+
+/*# sourceMappingURL=style.css.map*/
