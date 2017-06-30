@@ -1,7 +1,0 @@
-mixin card(card = {})
-  .card
-    .card__main
-      h2.title
-        a(href=`/punchcard/${card._id}`) #{card.name}
-    .card__details
-      p= card.publishers.join(',')
